@@ -1,0 +1,114 @@
+/*Reset*/
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*clearfix*/
+.clearfix::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+/*header*/
+header{
+  background-color: blue;
+  height: 600px;
+  background-image: url(../img/background-header.png);
+  background-size: 1000px;
+  background-repeat: no-repeat;
+  background-position: 110% 110%;
+  position: relative;
+}
+/*container 80%*/
+.container{
+  width:80%;
+  margin: auto;
+}
+/*menu alto*/
+.menu{
+  float: left;
+}
+.menu a, .titolo a{
+  text-decoration: none;
+  color: white;
+}
+ul{
+  list-style-type: none;
+}
+.menu li{
+  display:inline-block;
+  text-transform: uppercase;
+  font-size: 10px;
+  margin: 20px 10px;
+}
+.logo{
+width: 10%;
+}
+.menu-center{
+margin-left: 30px;
+width: 50%
+}
+.menu-right{
+  width: 30%;
+  text-align: right;
+}
+.menu-right .login, .cta{
+  border: 1px solid white;
+  padding: 8px 15px;
+  border-radius: 5px;
+}
+.cta{
+  background-color: green;
+}
+/*titolo*/
+.titolo h5{
+  display: inline-block;
+  margin-top: 30px;
+}
+.titolo h2{
+  color: white;
+  font-size:50px;
+}
+.titolo{
+position: absolute;
+top: 50%;
+left: 10%;
+width: 30%;
+transform: translate(0%, -50%);
+}
+/*main*/
+.intermezzo{
+  text-align: center;
+  background-color: lightgrey;
+  padding: 40px 0;
+}
+.intermezzo h3, .intermezzo p{
+  padding: 10px 0;
+}
+h3{
+  font-size: 1.5em;
+}
+.intermezzo p{
+  font-size: 1.1em;
+}
+/*corpo centrale*/
+.col{
+  background-color: lightgray;
+  height: 300px;
+  float: left;
+  width: 30%;
+  margin: 3% 0;
+}
+.col-middle{
+  margin: 3% 5%;
+}
+.col img{
+  display:block;
+  width: 20%;
+  margin: auto;
+  text-align: center;
+}
+.col h3{
+  color: green;
+}
