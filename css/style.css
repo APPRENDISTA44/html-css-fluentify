@@ -43,14 +43,13 @@ ul{
   margin: 20px 10px;
 }
 .logo{
-width: 10%;
+width: 15%;
 }
 .menu-center{
-margin-left: 30px;
-width: 50%
+width: 50%;
 }
 .menu-right{
-  width: 30%;
+  width: 35%;
   text-align: right;
 }
 .menu-right .login, .cta{
